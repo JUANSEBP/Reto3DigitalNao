@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ToCupBoard</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="lib/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+	<link rel="shortcut icon" href="images/favicon.png" />
+  </head>
+  <body>
+	<!-- Header-Section-Strat  -->
+	<header>
+		<div class="container">
+			<div class="header_top">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="header_top_left float-left">
+							<ul class="social_icon">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+							<ul class="social_others">
+								<li><a><i class="fa fa-phone"></i>+5939985953502</a></li>
+								<li><a href="#"><i class="fa fa-envelope-o"></i>jsbailon@digitalnao.edu.mx</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="header_top_right text-right">
+							<ul>
+								<li><a href="#">Cuenta</a></li>
+								<li><a href="#">Mi lista de deseos</a></li>
+								<li><a href="#">Juan Bailon</a></li>
+								<li class="searchbox">
+									<input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+									<input type="submit" class="searchbox-submit" value="">
+									<span class="searchbox-icon"><i class="fa fa-search"></i></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="container">
+				<div class="row mega_relative">
+					<div class="col-xs-12 col-sm-2">
+						<div class="logo head_lo">
+							<a href="index.html"><h1 class="align-text: center;">To Cup Board</h1></a>
+						</div>
+					</div>
+					<div class="col-sm-10">
+						<div class="mainmenu float-right">
+							<nav>
+								<ul>
+									<li><a href="index.html">Inicio</a></li>
+									<li><a href="#">Novedades</i></a></li>
+									<li><a href="#">Nosotros</a></li>
+									<li><a href="#">Ofertas</a></li>
+									<li><a href="#">Contáctanos</a></li>
+									<li class="shop_icon">
+										<a href="cart-web-checkout.html"><img src="images/menu_icon_img.png" alt="" /></a>
+										<span id="numberCart">0</span>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+	</header>
+	<!-- mobile-menu-area start -->
+	<div class="mobile-menu-area">
+		<div class="container">
+			<div class="mobile-menu">
+				<nav id="dropdown">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="#">Novedades</i></a></li>
+						<li><a href="#">Nosotros</a></li>
+						<li><a href="#">Ofertas</a></li>
+						<li><a href="#">Contáctanos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	
+	<div class="slider_area">
+		<div class="fullwidthbanner">
+			<ul>
+				<li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+					<img src="images/slider/slider_bg-2.jpg"  alt="mainbanner-31"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+					<div class="tp-caption banner1 tp-fade tp-resizeme"
+						data-x="910"
+						data-y="20" 
+						data-speed="300"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						data-end="8700"
+						data-endspeed="300"
+						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;"><img src="images/slider/slide-2.png" alt="">
+					</div>
+
+					<div class="tp-caption banner12 tp-fade tp-resizeme"
+						 data-x="385"
+						 data-y="145" 
+						data-speed="300"
+						data-start="800"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 7;font-size:72px; font-family:nexa_blackregular;font-weight:700;color:#3a4b60;max-width: auto; max-height: auto; white-space: nowrap;">ALIMENTACIÓN
+					</div>
+
+					<div class="tp-caption banner13 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="190" 
+						data-speed="300"
+						data-start="1100"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:24px;line-height:26px;font-family:Roboto;font-weight:100; color:#ffffff;letter-spacing:8px;">Protégete y a tu familia
+					</div>
+					
+					<!-- LAYER NR. 4.1 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="273"  
+						data-speed="300"
+						data-start="800"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Productos 100% Frescos
+					</div>
+					
+					<!-- LAYER NR. 4.2 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="309"
+						data-speed="300"
+						data-start="1000"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Tipo: Proteínas y grasa saludables
+					</div>
+					
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="345" 
+						data-speed="300"
+						data-start="1100"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Carnes: Blancas y Rojas
+					</div>
+					
+					<!-- LAYER NR. 4.4 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="381" 
+						data-speed="300"
+						data-start="1100"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Precios accesibles a comparación del mercado
+					</div>
+
+					<!-- LAYER NR. 4.5 -->
+					<div class="tp-caption banner22 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="418" 
+						data-speed="300"
+						data-start="1400"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						¡Puedes elegir los productos según tus necesidades!
+					</div>
+					
+					<!-- LAYER NR. 4.6 -->
+					<div class="tp-caption banner23 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="450" 
+						data-speed="300"
+						data-start="1700"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">PRECIO COMBO CARNES ROJAS: $ 24.99
+					</div>
+						
+					<!-- LAYER NR. 4.7 -->
+					<div class="tp-caption banner2 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="530" 
+						data-speed="300"
+						data-start="1800"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						>
+						
+						<a class="slide_btn" onclick="addProduct()" style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;font-size:16px; color:#fff;border: 2px solid #ffffff;line-height:2;padding: 10px 30px;">AGREGAR AL CARRITO</a>
+					</div>
+				</li>
+				<!-- SLIDE-2 -->
+				<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-title="Slide2" data-saveperformance="off" >
+					<!-- MAIN IMAGE -->
+					<img src="images/slider/slider_bg-1.jpg"  alt="mainbanner-21"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption tp-fade"
+						data-x="910"
+						data-y="20" 
+						data-speed="300"
+						data-start="800"
+						data-easing="Power3.easeInOut"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 3;"><img src="images/slider/slide-1.png" alt="">
+					</div>
+
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption banner12 tp-fade tp-resizeme"
+						 data-x="385"
+						 data-y="145" 
+						data-speed="300"
+						data-start="800"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 7;font-size:72px; font-family:nexa_blackregular;font-weight:700;color:#3a4b60;max-width: auto; max-height: auto; white-space: nowrap;">Protección
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption banner13 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="190" 
+						data-speed="300"
+						data-start="1100"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:24px;line-height:26px;font-family:Roboto;font-weight:100; color:#ffffff;letter-spacing:8px;">Ahora más protección
+					</div>
+					
+					<!-- LAYER NR. 4.1 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="273"  
+						data-speed="300"
+						data-start="800"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Mascarillas con filtros de aire  cómodos
+					</div>
+					
+					<!-- LAYER NR. 4.2 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="309"
+						data-speed="300"
+						data-start="1000"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Precios accesibles 
+					</div>
+					
+					<!-- LAYER NR. 4.3 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="345" 
+						data-speed="300"
+						data-start="1100"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Desde paquetes de 30 mascarillas
+					</div>
+					
+					<!-- LAYER NR. 4.4 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="381" 
+						data-speed="300"
+						data-start="1100"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						Tamaños grandes y pequeños
+					</div>
+
+					<!-- LAYER NR. 4.5 -->
+					<div class="tp-caption banner22 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="418" 
+						data-speed="300"
+						data-start="1400"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						
+					¡Elige en base a tus necesidades!
+					</div>
+					
+					<!-- LAYER NR. 4.6 -->
+					<div class="tp-caption banner23 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="450" 
+						data-speed="300"
+						data-start="1700"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">PRECIO COMBOS MASCARILLAS X30: $25.00
+					</div>
+					
+					<!-- LAYER NR. 4.7 -->
+					<div class="tp-caption banner2 tp-fade tp-resizeme"
+						data-x="385"
+						data-y="530" 
+						data-speed="1800"
+						data-start="500"
+						data-easing="Power3.easeInOut"
+						data-splitin="none"
+						data-splitout="none"
+						data-elementdelay="0"
+						data-endelementdelay="0"
+						 data-end="8700"
+						data-endspeed="300"
+						>
+						<a class="slide_btn" onclick="addProduct()" style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;font-size:16px; color:#fff;border: 2px solid #ffffff;line-height:2;padding: 10px 30px;">AGREGAR AL CARRITO</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Slider-Section-End  -->
+	<!-- Product-Section-Strat  -->
+	<section class="product_area section-padding">
+		<div class="padding_right main_single_product">
+			<div class="single_product">
+				<div class="product_img">
+					<img src="images/product/tre-shirt-1.png" alt="AZUL OSCURO IMAGE" />
+				</div>
+				<div class="product_text dark_product">
+					<h1>COMBO PROMO</h1>
+				</div>
+			</div>
+		</div>
+		<div class="padding_left main_single_product">
+			<div class="single_product single_product_two">
+				<div class="product_img">
+					<img src="images/product/tre-shirt-1.png" alt="AZUL OSCURO IMAGE" />
+				</div>
+				<div class="product_text_two product_text">
+					<h1>CARNES PROM</h1>
+					<p>1KG LOMO RE RES</p>
+					<p>1KG SALÓN GRANDE</p>
+					<p>1KG COSTILLA DE RES</p>
+					<p>0.5 KG DE CARNE MOLIDA COMÚN</p>
+					<p>PRECIO: $ 45.50</p>
+					<a class="shop_now_btn" onclick="addProduct()">AGREGAR AL CARRITO</a>
+				</div>
+			</div>
+		</div>
+		<div class="padding_right main_single_product section-padding-top">
+			<div class="single_product single_product_two">
+				<div class="product_img tre_shirt_2">
+					<img src="images/product/tre-shirt-2.png" alt="AZUL OSCURO IMAGE" />
+				</div>
+				<div class="product_text_two tre_shirt_2_text product_text">
+					<h1>LAPTOP HP</h1>
+					<p>INTEL CORE i5 5ta gen</p>
+					<p>8GB de RAM ddr4</p>
+					<p>256 SSD m.2</p>
+					<p>+ Ratón alámbrico 600dpi</p>
+					<p>+ auriculares finos puertro jac</p>
+					<p>PRECIO: $ 500</p>
+					<a class="shop_now_btn" onclick="addProduct()">AGREGAR AL CARRITO</a>
+				</div>
+			</div>
+		</div>
+		<div class="padding_left main_single_product section-padding-top">
+			<div class="single_product">
+				<div class="product_img tre_shirt_2">
+					<img src="images/product/tre-shirt-2.png" alt="AZUL OSCURO IMAGE" />
+				</div>
+				<div class="product_text dark_product">
+					<h1>PARA OFIMATICA</h1>
+				</div>
+			</div>
+		</div>
+		<div class="padding_right main_single_product section-padding-top">
+			<div class="single_product">
+				<div class="product_img tre_shirt_3">
+					<img src="images/product/tre-shirt-3.png" alt="AZUL OSCURO IMAGE" />
+				</div>
+				<div class="product_text dark_product">
+					<h1>PAQUETE MASCARILLAS</h1>
+				</div>
+			</div>
+		</div>
+		<div class="padding_left main_single_product section-padding-top">
+			<div class="single_product single_product_two">
+				<div class="product_img tre_shirt_3">
+					<img src="images/product/tre-shirt-3.png" alt="AZUL OSCURO IMAGE" />
+				</div>
+				<div class="product_text_two product_text">
+					<h1>PROMO MASCARILLAS</h1>
+					<p>5 UNIDADES KN95</p>
+					<p>10 UNIDADES QUIRÚRGICAS</p>
+					<p>5 UNIDADES N95</p>
+					<p>7 UNIDADES CON VÁLVULA</p>
+					<p>PRECIO: $ 27.50</p>
+					<a class="shop_now_btn" onclick="addProduct()">AGREGAR AL CARRITO</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Product-Section-End  -->
+	<!-- Choose-Section-Strat  -->
+	<section class="choose_area section-padding">
+		<div class="container">
+			<div class="choose_area_text text-center">
+				<div class="choose_title">
+				<h2>¿POR QUÉ NOSOTROS?</h2>
+				</div>
+				<div class="choose_text">
+					<i class="flaticon-lightbulbs"></i>
+					<h5><a href="#">ACUERDOS PERSONALIZADOS</a></h5>
+					<div class="text_p">
+						<p>Por medio de nuestros enlaces de contacto puedes comunicarte con parte del equipo y solicitar un convenio para tu puesto local.</p>
+					</div>
+				</div>
+				<div class="choose_text choose_active">
+					<i class="flaticon-sticker3"></i>
+					<h5><a href="#">MEJOR CALIDAD</a></h5>
+					<div class="text_p">
+						<p>Trabajamos con los mejores proveedores en cuanto a proteínas, materiales para higiene personal y electrónicos en el mercado.</p>
+					</div>
+				</div>
+				<div class="choose_text">
+					<i class="flaticon-tshirt17"></i>
+					<h5><a href="#">Precios acomodádos</a></h5>
+					<div class="text_p">
+						<p>Que enfrentan y desafían puntualmente a la ola de sobreprecios que buscan aprovecharse de estos tiempos.</p>
+					</div>
+				</div>
+			</div>
+			<div class="choose_btn text-center">
+				<a class="shop_now_btn" onclick="addProduct()">¡Ve a tú carrito y finaliza tu compra!</a>
+			</div>
+		</div>
+	</section>
+	<!-- Choose-Section-End  -->
+	<!-- Review-Section-Strat  -->
+	<section class="review_area section-padding">
+		<div class="container">
+			<div class="review_text text-center">
+				<div class="review_title">
+					<h2>COMENTARIOS DESDE EL ÁREA ADMINISTRATIVA</h2>
+				</div>
+				<div id="review_carousel_1" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators slider_indicators">
+						<li data-target="#review_carousel_1" data-slide-to="0" class="active"></li>
+						<li data-target="#review_carousel_1" data-slide-to="1"></li>
+						<li data-target="#review_carousel_1" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="single_review">
+								<img src="images/review/person1.jpg" alt="" />
+								<h5><a href="#">Roberto W</a></h5>
+								<p>Como iniciador de este proyecto deseo expresar que nuestros servicios son lo que necesita la sociedad en estos tiempos de crisis, atención y resolución de problemas.</p>
+								<div class="review_line"></div>
+								<div class="review_icon">
+									<i>“</i>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="single_review">
+								<img src="images/review/person2.jpg" alt="" />
+								<h5><a href="#">Israel B</a></h5>
+								<p>En mis años de experiencia con este tipo de negocios no había visto antes una propuesta eficiente, productiva y bien ejecutada como esta empresa cuyo fin es satisfacer las necesidades del usuario.</p>
+								<div class="review_line"></div>
+								<div class="review_icon">
+									<i>“</i>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="single_review">
+								<img src="images/review/person3.jpg" alt="" />
+								<h5><a href="#">Ing. Francisco</a></h5>
+								<p>En aspectos técnicos, todo lo que se necesita para afrontar la crisis de sanidad, se puede conseguir aquí. Cualquier usuario que lo necesite, podrá tener la cobertura al alcance de un botón por medio de esta página.</p>
+								<div class="review_line"></div>
+								<div class="review_icon">
+									<i>“</i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Review-Section-End  -->
+	<!-- Compare-Section-Strat  -->
+	<section class="compare_area section-padding">
+		<div class="container">
+			<div class="review_text text-center">
+				<div class="compare_title">
+					<h2>¡Echa un vistazo!</h2>
+					<p>y entérate de lo que hacemos y tenemos</p>
+				</div>
+				<div class="compare_menu col-text-center">
+					<ul class="nav nav-tabs items_ul" role="tablist" id="myTab">
+					  <li role="presentation"><a href="#features" aria-controls="features" role="tab" data-toggle="tab">Características</a></li>
+					  <li role="presentation" class="active"><a href="#tech" aria-controls="tech" role="tab" data-toggle="tab">Productos</a></li>
+					  <li role="presentation"><a href="#guarantee" id="com_3" aria-controls="guarantee" role="tab" data-toggle="tab">Garantía</a></li>
+					</ul>
+				</div>
+				<div class="tab-content items_tab">
+					<div role="tabpanel" class="tab-pane fade in items_pane" id="features">
+						<div class="features_box">
+							<div class="single_features border_bot">
+								<i class="flaticon-lightbulbs"></i>
+								<div class="features_text">
+									<h5><a href="#">Dedicación</a></h5>
+									<p>Trabajamos incansablemente para poder ofrecer a nuestros clientes la atención y los productos necesarios dentro de cada solicitud</p>
+								</div>
+							</div>
+							<div class="single_features border_bot border_left">
+								<i class="fa fa-diamond"></i>
+								<div class="features_text">
+									<h5><a href="#">Trato con nuestros clientes</a></h5>
+									<p>Tenemos afinidad con aquellos que depositan su confianza en nuestros servicios, es por esta razón que buscamos establecer comunicación de modo que conocer los criterios es algo fundamental en nuestro sector</p>
+								</div>
+							</div>
+							<div class="single_features">
+								<i class="fa fa-cogs"></i>
+								<div class="features_text">
+									<h5><a href="#">Organización</a></h5>
+									<p>Nuestras prácticas apuntan hacia un excelente ambiente laboral que tiene como objetivo la comunicación entre diversos departamentos que buscarán trabajar en conjunto para un mismo fin: tu bienestar</p>
+								</div>
+							</div>
+							<div class="single_features border_left">
+								<i class="flaticon-tshirt17"></i>
+								<div class="features_text">
+									<h5><a href="#">Control de calidad</a></h5>
+									<p>La conservación de los alimentos, el estado de los materiales de aseo personal y la condición de los productos  electrónicos que distribuimos, pasa por protocolos exhaustivos de control en sanidad</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade in active items_pane" id="tech">
+						<div class="table-responsive">
+							<table id="home_table">
+								<tr>
+									<th>Variedades</th>
+									<th>Alimentos</th>
+									<th>Higiene Personal</th>
+									<th>Electrónicos</th>
+								</tr>
+								<tr>
+									<td>N. 1</td>
+									<td>Lomo de asado de Res</td>
+									<td>Mascarilla quirúrgica</td>
+									<td>Laptop Dell - Ofimática</td>
+								</tr>
+								<tr>
+									<td>N. 2</td>
+									<td>Salon Grande</td>
+									<td>Mascarilla N95</td>
+									<td>Laptop Asus - Gaming</td>
+								</tr>
+								<tr>
+									<td>N. 3</td>
+									<td>Lomo fino de Res</td>
+									<td>Mascarilla de tela</td>
+									<td> Pc Lenovo - All in one</td>
+								</tr>
+								<tr>
+									<td>N. 4</td>
+									<td>Costilla de Res</td>		
+									<td>Mascarilla con válvula</td>
+									<td>Cargadores tipo C, V8 y Lighting</td>
+								</tr>
+								<tr>
+									<td>N. 5</td>
+									<td>Carne molida de Pollo</td>		
+									<td>Spray de alcohol antiséptico</td>
+									<td>Cascos alámbricos con micrófono integrado</td>
+								</tr>
+								<tr>
+									<td>N. 6</td>
+									<td>Pechuga de Pollo</td>		
+									<td>Gel antibacterial</td>
+									<td>Mouse razer - ergonómico</td>
+								</tr>
+								<tr>
+									<td>N. 7</td>
+									<td>Carne molida de Res</td>		
+									<td>Guantes quirúrgicos</td>
+									<td>Regulador de voltaje - 200W</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade in items_pane" id="guarantee">
+						<div class="guarantee_box">
+							<div class="guarantee_features">
+								<img src="images/guarantee-icon.png" alt="" />
+								<div class="features_text guarantee_text">
+									<h5><a href="#">GARANTIZAMOS LA SANIDAD</a></h5>
+									<p>En ToCupBoard nos aseguramos no solo de la satisfacción ante tus necesidades personales en cuanto a la alimentación, a la higiene personal y equipos electrónicos necesarios. También es nuestra prioridad asegurarnos que estos productos se mantengan desinfectados, nuestro compromiso. Bajo nuestros protocolos de seguridad trabajamos con la forma en la que presentamos nuestros productos. Y también con nuestra política de devoluciones nos encargamos de retribuir en caso de algún producto en mal estado siempre y cuando sea documentado respectivamente.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer_top footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-sm-6">
+						<div class="newsletter">
+							<h4>Regístrate para recibir información</h4>
+						</div>
+					</div>
+					<div class="col-sm-12 col-sm-6">
+						<div class="newsletter text-right">
+							<input class="news_input" type="text" value="" placeholder="Email Address"/>
+							<input class="subscribe_btn" type="button" value="subscribe"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_middel footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link address">
+							<p>ToCupBoard</p>
+							<ul>
+								<li><span>Dirección: </span>Francisco de Orellana - edificio 12, Guayas</li>
+								<li><span>Teléfono: </span>(3438) 098 4817</li>
+								<li><span>Email: </span>Gerencia@ToCupBoard.com</li>
+							</ul>
+						</div>
+						<div class="footer_icon">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link">
+							<p>Mi cuenta</p>
+							<ul>
+								<li><a href="#">Mi cuenta</a></li>
+								<li><a href="cart-web-checkout.html">Carrito de compras</a></li>
+								<li><a href="#">Mi lista de deseos</a></li>
+								<li><a href="#">Mi cuenta de crédito</a></li>
+								<li><a href="#">Información de la cuenta</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link res_mar">
+							<p>Atención al cliente</p>
+							<ul>
+								<li><a href="#">7/24 de Soporte al cliente</a></li>
+								<li><a href="#">Política de Reembolso</a></li>
+								<li><a href="#">Guía de Compra</a></li>
+								<li><a href="#">Compras al por mayor</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link res_mar">
+							<p>Detalles</p>
+							<ul>
+								<li><a href="#">Acerca de nuestra tienda</a></li>
+								<li><a href="#">Compra Segura</a></li>
+								<li><a href="#">Información de Domicilio</a></li>
+								<li><a href="#">Ubicación de la compañía</a></li>
+								<li><a href="#">Política de Privacidad</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+						<div class="copyright">
+							<p style="color: rgb(1, 28, 53);">Copyright 2024 <a href="http://designscrazed.org/" style="color: rgb(1, 28, 53);">ToCupBoard</a> Todos los derechos reservados</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<div class="copyright_icon text-right">
+							<a href="#"><img src="images/footer/bancolombia.png" alt="" width="100px"/></a>
+							<a href="#"><img src="images/footer/nequi.png" alt="" width="100px"/></a>
+							<a href="#"><img src="images/footer/pse.png" alt="" width="100px"/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/operation-shop.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
+	<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="lib/rs-plugin/rs.home.js"></script>
+    <script src="js/search-box.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
